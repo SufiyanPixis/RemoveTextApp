@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monomaniac+One&display=swap');
+
+.drop-zone {
+  width: 650px;
+  height: 300px;
+  border: 2px dashed #ccc;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: absolute;
+  top: 132%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  color: #333;
+  
+}
+
+.drop-zone.dragging {
+  border-color: #06f50a;
+}
+
+.drop-zone-content {
+  text-align: center;
+}
+
+.drop-zone-content svg {
+  margin-bottom: 16px;
+}
+
+.browse-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.ImageIcon {
+
+  color: rgb(7, 0, 0);
+  font-size: 7em;
+  border: none;
+  outline: none;
+}
+
+.ImageIcon:hover {
+  color: #828384;
+}
+
+.browse-button {
+  display: inline-block;
+  border: none;
+  outline: none;
+}
+
+.browse-button:focus,
+.browse-button:hover {
+  outline: none;
+}
+
+.Text_DragandDrop {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.remove-text {
+  height: 69px;
+}
+
+.remove-text p {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+
+.drop-zone-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-bottom: 10px;
+
+}
+
+.my-vedio {
+  margin-left: 7em;
+  height: 90%;
+  width: 20%;
+  /* Adjust the width as per your requirement */
+}
+
+@media (max-width: 768px) {
+  .my-vedio {
+    width: 100%;
+  }
+}
+
+.line {
+  font-family: VarentGrotesk, sans-serif;
+  --tw-bg-opacity: 1;
+  background-color: rgba(189, 255, 1, var(--tw-bg-opacity));
+}
+
+.front-text {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 700;
+}
+
+.span {
+  font-style: italic;
+  font-family: 'Monomaniac One', sans-serif;
+  border-radius: 25px;
+  padding: 4px;
+  color: #fff;
+  background: #3986F7;
+}
+.example-image {
+  width: 20px;  /* Or whatever size you want */
+  height: auto;  /* To maintain aspect ratio */
+  margin: 10px;  /* Optional, adds some space around the images */
+}
+.example-text {
+  text-align: center; /* Aligns text to the center */
+  font-size: 24px; /* Sets font size to 44 pixels */
+  font-family: Arial, Helvetica, sans-serif; /* Sets the font family. You can use any font you prefer */
+}
+.shadow-rounded {
+  border-radius: 1px; /* adjust this value for different levels of roundness */
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15); /* adjust these values for different shadow effects */
+  padding: 20px; /* added some padding for better visual effect */
+  background-color:white;
+}
+
+

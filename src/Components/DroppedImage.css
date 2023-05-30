@@ -1,0 +1,36 @@
+.dropped-image-container {
+    position: relative;
+  }
+  
+  .image-wrapper {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .original-image {
+    width: 300px;
+  }
+  
+  .highlight-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+  }
+  
+  .highlight-button {
+    margin-top: 10px;
+  }
+  
+  .draw-button {
+    margin-top: 10px;
+  }
+  
+  .draw-button.active {
+    background-color: #ccc;
+  }
+  
+  .p {
+    margin-top: 10px;
+  }
+  

@@ -1,0 +1,395 @@
+/* @font-face {
+    font-family: 'Activists Regular';
+    src: url('../fonts/Activists Regular.tff') format('truetype'),   
+  }
+  @font-face {
+    font-family: 'Aesthetic-Regular';
+    src: url('../fonts/Aesthetic-Regular.tff') format('truetype');
+  }
+  @font-face {
+    font-family: 'Archer Gage';
+    src: url('../fonts/Archer Gage.tff') format('truetype');
+  }
+  @font-face {
+    font-family: 'Bebas-Regular';
+    src: url('../fonts/Bebas-Regular.tff') format('truetype');
+  }
+  @font-face {
+    font-family: 'BebasNeue-Regular';
+    src: url('../fonts/BebasNeue-Regular.tff') format('truetype');
+  }
+  @font-face {
+    font-family: 'CaviarDreams';
+    src: url('../fonts/CaviarDreams.tff') format('truetype');
+  }
+  @font-face {
+    font-family: 'Cinzel-Black';
+    src: url('../fonts/  Cinzel-Black .tff') format('truetype');
+  }
+  @font-face {
+    font-family: 'Classica-Book';
+    src: url('../fonts/  Classica-Book.tff') format('truetype');
+  }
+  @font-face {
+    font-family: 'Cocogoose Pro Italic-trial';
+    src: url('../fonts/ Cocogoose Pro Italic-trial.tff') format('truetype');
+  }
+  @font-face {
+    font-family:'  Cocogoose Pro Light Italic-trial    ';
+    src: url('../fonts/  Cocogoose Pro Light Italic-trial    .tff') format('truetype');
+  }
+  @font-face {
+    font-family:' Cocogoose Pro Light-trial    ';
+    src: url('../fonts/ Cocogoose Pro Light-trial   .tff') format('truetype');
+  }
+  @font-face {
+    font-family:'  Cocogoose Pro Semilight Italic-trial    ';
+    src: url('../fonts/   Cocogoose Pro Semilight Italic-trial    .tff') format('truetype');
+  }
+  @font-face {
+    font-family:'  Cocogoose Pro Semilight-trial    ';
+    src: url('../fonts/   Cocogoose Pro Semilight-trial   .tff') format('truetype');
+  }
+  @font-face {
+    font-family:'Cocogoose Pro Thin Italic-trial ';
+    src: url('../fonts/Cocogoose Pro Thin Italic-trial.tff') format('truetype');
+  }
+  @font-face {
+    font-family:'  Cocogoose Pro Thin-trial    ';
+    src: url('../fonts/  Cocogoose Pro Thin-trial    .tff') format('truetype');
+  }
+  @font-face {
+    font-family:'Cocogoose Pro UltraLight Italic-trial ';
+    src: url('../fonts/ Cocogoose Pro UltraLight Italic-trial .tff') format('truetype');
+  }
+  @font-face {
+    font-family:'Cocogoose Pro Ultralight-trial ';
+    src: url('../fonts/ Cocogoose Pro Ultralight-trial .tff') format('truetype');
+  }
+  @font-face {
+    font-family:'Cocogoose Pro-trial';
+    src: url('../fonts/Cocogoose Pro-trial.tff') format('truetype');
+  }
+ @font-face {
+    font-family:'Crescent Slim Demo ';
+    src: url('../fonts/ Crescent Slim Demo .tff') format('truetype');
+  }
+  @font-face {
+    font-family:'EDITION_';
+    src: url('../fonts/ EDITION_.tff') format('truetype');
+  }
+  @font-face {
+    font-family:'  Ethereal-Thin    ';
+    src: url('../fonts/   Ethereal-Thin.tff') format('truetype');
+  }
+  @font-face {
+    font-family:'Garetra-Regular Demo';
+    src: url('../fonts/ Garetra-Regular Demo.tff') format('truetype');
+  }
+  @font-face {
+    font-family:'Gobold Bold';
+    src: url('../fonts/ Gobold Bold.tff') format('truetype');
+  }
+  @font-face {
+    font-family:'Hanoble';
+    src: url('../fonts/ Gobold Bold.tff') format('truetype');
+  } */
+  @font-face {
+    font-family:'Activists Regular';
+    src: url('../fonts/Activists Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'Aesthetic-Regular';
+    src: url('../fonts/Aesthetic-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'Akira Expanded Demo';
+    src: url('../fonts/Akira Expanded Demo.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'Archer Gage';
+    src: url('../fonts/Archer Gage.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'Bebas-Regular';
+    src: url('../fonts/Bebas-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'BebasNeue-Regular';
+    src: url('../fonts/BebasNeue-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'Butler_Black';
+    src: url('../fonts/Butler_Black.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'CaviarDreams';
+    src: url('../fonts/CaviarDreams.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'Cinzel-Black';
+    src: url('../fonts/Cinzel-Black.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'Classica-Book';
+    src: url('../fonts/Classica-Book.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'Cocogoose Pro Italic-trial';
+    src: url('../fonts/Cocogoose Pro Italic-trial.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'Cocogoose Pro Light Italic-trial';
+    src: url('../fonts/Cocogoose Pro Light Italic-trial.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'Cocogoose Pro Light-trial';
+    src: url('../fonts/Cocogoose Pro Light-trial.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'Cocogoose Pro Semilight Italic-trial';
+    src: url('../fonts/Cocogoose Pro Semilight Italic-trial.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'Cocogoose Pro Semilight-trial';
+    src: url('../fonts/Cocogoose Pro Semilight-trial.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'Cocogoose Pro Thin Italic-trial';
+    src: url('../fonts/Cocogoose Pro Thin Italic-trial.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'Cocogoose Pro Thin-trial';
+    src: url('../fonts/Cocogoose Pro Thin-trial.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'Cocogoose Pro UltraLight Italic-trial';
+    src: url('../fonts/Cocogoose Pro UltraLight Italic-trial.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'Cocogoose Pro Ultralight-trial';
+    src: url('../fonts/Cocogoose Pro Ultralight-trial.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'Cocogoose Pro-trial';
+    src: url('../fonts/Cocogoose Pro-trial.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'Crescent Slim Demo';
+    src: url('../fonts/Crescent Slim Demo.ttf') format('truetype');
+}
+@font-face {
+    font-family:'EDITION_';
+    src: url('../fonts/EDITION_.TTF') format('truetype');
+  }
+
+
+@font-face {
+    font-family:'Ethereal-Thin';
+    src: url('../fonts/Ethereal-Thin.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'Garetra-Regular Demo';
+    src: url('../fonts/Garetra-Regular Demo.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'Gobold Bold';
+    src: url('../fonts/Gobold Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'Hanoble';
+    src: url('../fonts/Hanoble.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'Heavitas';
+    src: url('../fonts/Heavitas.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'Hertical Sans';
+    src: url('../fonts/Hertical Sans.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'LEMONMILK-BoldItalic';
+    src: url('../fonts/LEMONMILK-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'LEMONMILK-LightItalic';
+    src: url('../fonts/LEMONMILK-LightItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'LEMONMILK-Medium';
+    src: url('../fonts/LEMONMILK-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'LEMONMILK-MediumItalic';
+    src: url('../fonts/LEMONMILK-MediumItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'LEMONMILK-Regular';
+    src: url('../fonts/LEMONMILK-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'LEMONMILK-RegularItalic';
+    src: url('../fonts/LEMONMILK-RegularItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'Lavone';
+    src: url('../fonts/Lavone.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'Louis George Cafe';
+    src: url('../fonts/Louis George Cafe.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'LucyRosePERSONAL-Regular';
+    src: url('../fonts/LucyRosePERSONAL-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'MADE Sunflower PERSONAL USE';
+    src: url('../fonts/MADE Sunflower PERSONAL USE.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'MADE TOMMY Black_PERSONAL USE';
+    src: url('../fonts/MADE TOMMY Black_PERSONAL USE.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'Maukers Demo';
+    src: url('../fonts/Maukers Demo.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'Mermaid1001';
+    src: url('../fonts/Mermaid1001.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'Monogram Holder';
+    src: url('../fonts/Monogram Holder.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'Mont-ExtraLightDEMO';
+    src: url('../fonts/Mont-ExtraLightDEMO.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'NewYork PERSONAL USE';
+    src: url('../fonts/NewYork PERSONAL USE.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'Nexa-ExtraLight';
+    src: url('../fonts/Nexa-ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'OxfordStreet';
+    src: url('../fonts/OxfordStreet.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'Praysire Demo';
+    src: url('../fonts/Praysire Demo.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'Richard Samuels';
+    src: url('../fonts/Richard Samuels.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'Roboto-Black';
+    src: url('../fonts/Roboto-Black.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'Rochaline-Regular';
+    src: url('../fonts/Rochaline-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'StretchPro';
+    src: url('../fonts/StretchPro.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'THEBOLDFONT';
+    src: url('../fonts/THEBOLDFONT.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'TS Block Bold';
+    src: url('../fonts/TS Block Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'TT Rounds Neue Trial Black';
+    src: url('../fonts/TT Rounds Neue Trial Black.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'The_Riskeys Demo';
+    src: url('../fonts/The_Riskeys Demo.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'Westbourne Serif Italic';
+    src: url('../fonts/Westbourne Serif Italic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'WindstoneSerif_PERSONAL_USE_ONLY';
+    src: url('../fonts/WindstoneSerif_PERSONAL_USE_ONLY.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'big_noodle_titling';
+    src: url('../fonts/big_noodle_titling.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'couture-bld';
+    src: url('../fonts/couture-bld.ttf') format('truetype');
+}
+
+@font-face {
+    font-family:'kenyan coffee rg';
+    src: url('../fonts/kenyan coffee rg.ttf') format('truetype');
+}
